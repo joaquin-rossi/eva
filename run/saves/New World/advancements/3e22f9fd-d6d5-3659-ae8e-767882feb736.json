@@ -1,0 +1,23 @@
+{
+  "minecraft:adventure/throw_trident": {
+    "criteria": {
+      "shot_trident": "2021-09-20 11:52:59 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2021-09-20 11:53:16 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2021-09-20 11:53:41 -0300",
+      "minecraft:river": "2021-09-20 11:53:29 -0300",
+      "minecraft:savanna": "2021-09-20 11:52:29 -0300"
+    },
+    "done": false
+  },
+  "DataVersion": 2730
+}
