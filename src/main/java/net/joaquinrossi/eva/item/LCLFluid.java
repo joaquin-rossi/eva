@@ -1,14 +1,13 @@
 package net.joaquinrossi.eva.item;
 
 import net.joaquinrossi.eva.Eva;
-import net.joaquinrossi.eva.item.AFluid;
 
 import net.minecraft.block.BlockState;
 import net.minecraft.fluid.Fluid;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.item.Item;
-import net.minecraft.state.StateManager;
 import net.minecraft.state.property.Properties;
+import net.minecraft.state.StateManager;
 
 public abstract class LCLFluid extends AFluid {
     @Override

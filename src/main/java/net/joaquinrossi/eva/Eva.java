@@ -21,7 +21,6 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.world.World;
-import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.effect.StatusEffectInstance;
 
@@ -50,7 +49,7 @@ public class Eva implements ModInitializer {
                 super.onEntityCollision(state, world, pos, entity);
 
                 if (entity instanceof LivingEntity livingEntity) {
-                    livingEntity.addStatusEffect((new StatusEffectInstance(StatusEffects.REGENERATION, 10, 0)));
+                    livingEntity.addStatusEffect((new StatusEffectInstance(StatusEffects.REGENERATION,    10, 0)));
                     livingEntity.addStatusEffect((new StatusEffectInstance(StatusEffects.WATER_BREATHING, 10, 0)));
                 }
             }
