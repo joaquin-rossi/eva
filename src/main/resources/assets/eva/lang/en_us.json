@@ -1,3 +1,6 @@
 {
-    "item.eva.lance_of_longinus": "Lance of Longinus"
+    "itemGroup.eva.eva": "EVA",
+
+    "item.eva.lance_of_longinus": "Lance of Longinus",
+    "item.eva.lcl_bucket": "LCL Bucket"
 }
